@@ -1,0 +1,15 @@
+shop\OrderCanceled.class
+shop\external\Payment.class
+shop\OrderApplication.class
+shop\PolicyHandler.class
+shop\Ordered.class
+shop\AbstractEvent.class
+shop\PaymentRequested.class
+shop\Order.class
+shop\external\PaymentService.class
+shop\external\Cancellation.class
+shop\AbstractEvent$1.class
+shop\config\kafka\KafkaProcessor.class
+shop\OrderController.class
+shop\OrderRepository.class
+shop\external\CancellationService.class
