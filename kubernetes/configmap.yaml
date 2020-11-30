@@ -3,5 +3,5 @@ kind: ConfigMap
 metadata:
   name: apiurl
 data:
-  url: http://pay:80
+  url: http://pay:8080
   fluentd-sever-ip: 10.xxx.xxx.xxx

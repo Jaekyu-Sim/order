@@ -41,6 +41,15 @@ server:
 api:
   url:
     pay: http://localhost:8084
+
+feign:
+  hystrix:
+    enabled: true
+
+hystrix:
+  command:
+    default:
+      execution.isolation.thread.timeoutInMilliseconds: 680
 ---
 
 spring:
@@ -69,3 +78,12 @@ spring:
 api:
   url:
     pay: ${configurl}
+
+feign:
+  hystrix:
+    enabled: true
+
+hystrix:
+  command:
+    default:
+      execution.isolation.thread.timeoutInMilliseconds: 680
