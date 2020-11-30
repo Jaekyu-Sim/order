@@ -1,0 +1,7 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: apiurl
+data:
+  url: http://pay:80
+  fluentd-sever-ip: 10.xxx.xxx.xxx

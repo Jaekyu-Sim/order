@@ -1,5 +1,7 @@
 package shop;
 
+import org.hibernate.cfg.Environment;
+import org.springframework.web.bind.annotation.GetMapping;
 import shop.config.kafka.KafkaProcessor;
 import com.fasterxml.jackson.databind.DeserializationFeature;
 import com.fasterxml.jackson.databind.ObjectMapper;

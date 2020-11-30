@@ -19,6 +19,12 @@ spec:
           image: testreg1130.azurecr.io/order:latest
           ports:
             - containerPort: 8080
+          evn:
+            - name: configurl
+              valueFrom:
+                configMapKeyRef:
+                  name: apiurl
+                  key: url
           #readinessProbe:
           #  httpGet:
           #    path: '/actuator/health'
